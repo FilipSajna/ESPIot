@@ -21,4 +21,5 @@
         $text3 = fread($file3,filesize("actuator.txt"));
         echo $text3;
         fclose($file3);
+        
     ?>
