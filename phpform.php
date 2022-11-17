@@ -1,14 +1,14 @@
-<html lang = "en">
+<html>
 
 <head>
-    <title>Contact form<title>
+<title>Contact form<title>
 </head>
 
 <body>
 
 <header>
     <h2 align="left">Atipatapati</h2>
-  </header>
+</header>
 
 <form action="phpform.php" method="post">
 Name :      <input type="text" name="name" required><br>
