@@ -66,8 +66,9 @@ body {
 
 <body>
 
-<header><h2 align = "center">Atipatapati</h2></header>
+<header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
 
+<div class = "middle">
 <form action="phpform.php" method="post">
 Name :      <input type="text" name="name" required><br>
 Surname :   <input type="text" name="surname" required><br>
@@ -80,6 +81,7 @@ Phone number : <input type="tel" name="phonenumber" pattern="^\d{4}\d{3}\d{3}$" 
 <input type="submit">
 <input type="reset">
 </form>
+</div>
 
 </body>
 </html>
