@@ -69,7 +69,7 @@ body {
 <header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
 
 <div class = "middle">
-<form action="phpform.php" method="post">
+<form action="phpform.php" method="post" class = "middle">
 Name :      <input type="text" name="name" required><br>
 Surname :   <input type="text" name="surname" required><br>
 E-mail :    <input type="email" name="email" required><br>
