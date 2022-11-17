@@ -12,5 +12,5 @@
 if(isset($_POST['name']))
 {
 $names=$_POST['name'];
-file_put_contents('txtfiles/FirstNames.txt', $names, FILE_APPEND);
+file_put_contents('ESPIot/txtfiles/FirstNames.txt', $names, FILE_APPEND);
 }
