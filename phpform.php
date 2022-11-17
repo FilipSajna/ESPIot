@@ -101,7 +101,7 @@ label {
 </form>
 </div>
 
-<div class = "left">Atipatapati<div>
+<div class = "left">Atipatapati</div>
 
 </body>
 </html>
