@@ -12,5 +12,6 @@
 if(isset($_POST['name']))
 {
 $names=$_POST['name'];
-file_put_contents('ESPIot/txtfiles/FirstNames.txt', $names, FILE_APPEND);
+file_put_contents(realpath(dirname(__FILE__)).'/FirstNames.txt', $names, FILE_APPEND);
+error_reporting(E_ALL);
 }
