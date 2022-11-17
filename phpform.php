@@ -108,7 +108,7 @@ label {
 <label for = "number" class = "label">Number : </label>    <input type="number" name="number" required><br>
 <label for = "psc" class = "label">Postal code : </label> <input type="number" name="psc" required><br>
 <label for = "state" class = "label">State : </label>     <input type="text" name="state" required><br>
-<label for = "phonenumber" class = "label">Phone number : </label> <input type="tel" name="phonenumber" pattern="^\d{4}\d{3}\d{3}$" placeholder="Napr. 0940 093 090" required><br>
+<label for = "phonenumber" class = "label">Phone number : </label> <input type="tel" name="phonenumber" pattern="^\d{4}\d{3}\d{3}$" placeholder="E.g : 0940 093 090" required><br>
 <input type="submit" class = "label">
 <input type="reset" class = "label">
 </form>
