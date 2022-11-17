@@ -99,5 +99,7 @@ label {
 <input type="reset" class = "label">
 </form>
 
+<div class = "left">Atipatapati<div>
+
 </body>
 </html>
