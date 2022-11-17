@@ -3,7 +3,7 @@
 <head><title>Contact form</title><head>
 <style>
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -60,6 +60,15 @@ body {
 .label {
     font-size : 20px;
     font-family : Arial;
+}
+
+label {
+    vertical-align: top;
+    display: inline;
+}
+
+:required {
+    border: 0.5px solid blue;
 }
 
 @media (max-width: 600px) {
