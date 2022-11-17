@@ -41,10 +41,6 @@ body {
   grid-area: middle;
 }
 
-form {
-  grid-area: middle;
-}
-
 .right {
   grid-area: right;
 }
@@ -72,7 +68,7 @@ form {
 
 <header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
 
-<form action="phpform.php" method="post">
+<form action="phpform.php" method="post" style="text-align: center; ">
 Name :      <input type="text" name="name" required><br>
 Surname :   <input type="text" name="surname" required><br>
 E-mail :    <input type="email" name="email" required><br>
