@@ -1,24 +1,18 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Store form data in .txt file</title>
-</head>
+<head></head>
 <body>
-  <form method="post">
-    Enter Your Text Here:<br>
-    <input type="text" name="textdata"><br>
-    <input type="submit" name="submit">
-    
-  </form>
+<form action="phpform.php" method="post">
+<label for = "name">Name : </label>
+<input type="text" name="name" required><br>
+<input type="submit">
 </body>
 </html>
+
 <?php
-              
-if(isset($_POST['textdata']))
+if(isset($_POST['name']))
 {
-$data=$_POST['textdata'];
+$names=$_POST['name'];
 $fp = fopen('txtfiles/FirstNames.txt', 'a');
-fwrite($fp, $data);
+fwrite($fp, $names);
 fclose($fp);
 }
-?>
