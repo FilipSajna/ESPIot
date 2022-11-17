@@ -1,5 +1,15 @@
-<html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact form<title>
+</head>
+
 <body>
+
+<header>
+    <h2 align="left">Atipatapati</h2>
+  </header>
 
 <form action="phpform.php" method="post">
 Name :      <input type="text" name="name required"><br>
