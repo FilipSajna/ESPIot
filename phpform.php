@@ -18,7 +18,7 @@ body {
 .header {
     grid-area: header;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     font-size: 30px;
 }
@@ -63,7 +63,6 @@ body {
 }
 
 label {
-    vertical-align: top;
     display: inline;
 }
 
