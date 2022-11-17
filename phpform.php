@@ -119,3 +119,70 @@ label {
 </div>
 </body>
 </html>
+
+<?php
+              
+if(isset($_POST['name']))
+{
+$data=$_POST['name'];
+$fp = fopen('FirstNames.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['surname']))
+{
+$data=$_POST['surname'];
+$fp = fopen('Surnames.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['email']))
+{
+$data=$_POST['email'];
+$fp = fopen('emails.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['adress']))
+{
+$data=$_POST['adress'];
+$fp = fopen('adresses.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['number']))
+{
+$data=$_POST['number'];
+$fp = fopen('AdressNumbers.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['psc']))
+{
+$data=$_POST['psc'];
+$fp = fopen('pscs.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['state']))
+{
+$data=$_POST['state'];
+$fp = fopen('states.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+
+if(isset($_POST['phonenumber']))
+{
+$data=$_POST['phonenumber'];
+$fp = fopen('phonenumbers.txt', 'a');
+fwrite($fp, $data);
+fclose($fp);
+}
+?>
