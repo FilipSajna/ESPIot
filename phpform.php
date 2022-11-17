@@ -40,24 +40,27 @@ body {
 
 .left {
     grid-area: left;
-    background: rgba(240,255,255);
+    background: rgba(255,250,250);
     border-radius: 0.8rem;
     padding: 26px;
+    opacity: 0.6;
 }
 
 .middle {
     grid-area: middle;
-    background: rgba(240,255,255);
+    background: rgba(255,250,250);
     border-radius: 0.8rem;
     padding: 26px;
+    opacity: 0.6;
 }
 
 .right {
     grid-area: right;
     text-align: right;
-    background: rgba(240,255,255);
+    background: rgba(255,250,250);
     border-radius: 0.8rem;
     padding: 26px;
+    opacity: 0.6;
 }
 
 .footer {
