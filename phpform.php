@@ -40,14 +40,24 @@ body {
 
 .left {
     grid-area: left;
+    background: rgba(240,255,255);
+    border-radius: 0.8rem;
+    padding: 26px;
 }
 
 .middle {
     grid-area: middle;
+    background: rgba(240,255,255);
+    border-radius: 0.8rem;
+    padding: 26px;
 }
 
 .right {
     grid-area: right;
+    text-align: right;
+    background: rgba(240,255,255);
+    border-radius: 0.8rem;
+    padding: 26px;
 }
 
 .footer {
