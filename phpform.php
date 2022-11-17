@@ -1,4 +1,4 @@
 <?php
-    Name: <input type="text" name="name" value="<?php echo $name;?>">
+    echo '<h1>file page</h1>';
 
 ?>
