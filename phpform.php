@@ -124,65 +124,65 @@ label {
               
 if(isset($_POST['name']))
 {
-$data=$_POST['name'];
-$fp = fopen('FirstNames.txt', 'a');
-fwrite($fp, $data);
+$names=$_POST['name'];
+$fp = fopen('txtfiles/FirstNames.txt', 'a');
+fwrite($fp, $names);
 fclose($fp);
 }
 
 if(isset($_POST['surname']))
 {
-$data=$_POST['surname'];
-$fp = fopen('Surnames.txt', 'a');
-fwrite($fp, $data);
+$surnames=$_POST['surname'];
+$fp = fopen('txtfiles/Surnames.txt', 'a');
+fwrite($fp, $surnames);
 fclose($fp);
 }
 
 if(isset($_POST['email']))
 {
-$data=$_POST['email'];
-$fp = fopen('emails.txt', 'a');
-fwrite($fp, $data);
+$emails=$_POST['email'];
+$fp = fopen('txtfiles/emails.txt', 'a');
+fwrite($fp, $emails);
 fclose($fp);
 }
 
 if(isset($_POST['adress']))
 {
-$data=$_POST['adress'];
-$fp = fopen('adresses.txt', 'a');
-fwrite($fp, $data);
+$adresses=$_POST['adress'];
+$fp = fopen('txtfiles/adresses.txt', 'a');
+fwrite($fp, $adresses);
 fclose($fp);
 }
 
 if(isset($_POST['number']))
 {
-$data=$_POST['number'];
-$fp = fopen('AdressNumbers.txt', 'a');
-fwrite($fp, $data);
+$AdressNumbers=$_POST['number'];
+$fp = fopen('txtfiles/AdressNumbers.txt', 'a');
+fwrite($fp, $AdressNumbers);
 fclose($fp);
 }
 
 if(isset($_POST['psc']))
 {
-$data=$_POST['psc'];
-$fp = fopen('pscs.txt', 'a');
-fwrite($fp, $data);
+$pscs=$_POST['psc'];
+$fp = fopen('txtfiles/pscs.txt', 'a');
+fwrite($fp, $pscs);
 fclose($fp);
 }
 
 if(isset($_POST['state']))
 {
-$data=$_POST['state'];
-$fp = fopen('states.txt', 'a');
-fwrite($fp, $data);
+$states=$_POST['state'];
+$fp = fopen('txtfiles/states.txt', 'a');
+fwrite($fp, $states);
 fclose($fp);
 }
 
 if(isset($_POST['phonenumber']))
 {
-$data=$_POST['phonenumber'];
-$fp = fopen('phonenumbers.txt', 'a');
-fwrite($fp, $data);
+$phonenumbers=$_POST['phonenumber'];
+$fp = fopen('txtfiles/phonenumbers.txt', 'a');
+fwrite($fp, $phonenumbers);
 fclose($fp);
 }
 ?>
