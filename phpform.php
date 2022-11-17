@@ -18,7 +18,7 @@ body {
 .header {
     grid-area: header;
     background-color: #f1f1f1;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     font-size: 30px;
 }
@@ -85,7 +85,7 @@ label {
 <body>
 <div class="grid-container">
 
-<header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
+<div class = "header"><h2 align = "center">Atipatapati</h2></div>
 
 <div class = "left">Atipatapati</div>
 
@@ -103,6 +103,8 @@ label {
 <input type="reset" class = "label">
 </form>
 </div>
+
+<div class = "right">Atipatapati</div>
 
 </div>
 </body>
