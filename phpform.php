@@ -86,6 +86,7 @@ label {
 
 <header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
 
+<div class = "middle">
 <form action="phpform.php" method="post" style="text-align: center; ">
 <label for = "name" class = "label">Name : </label>      <input type="text" name="name" required><br>
 <label for = "surname" class = "label">Surname : </label>   <input type="text" name="surname" required><br>
@@ -98,6 +99,7 @@ label {
 <input type="submit" class = "label">
 <input type="reset" class = "label">
 </form>
+</div>
 
 <div class = "left">Atipatapati<div>
 
