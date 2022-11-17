@@ -18,9 +18,9 @@ body {
 .header {
     grid-area: header;
     background-color: #f1f1f1;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .grid-container {
