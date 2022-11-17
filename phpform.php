@@ -114,7 +114,7 @@ label {
 </form>
 </div>
 
-<div class = "right">Atipatapati</div>
+<div class = "right">Atipatapati2</div>
 
 </div>
 </body>
