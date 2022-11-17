@@ -100,7 +100,7 @@ label {
 <div class = "left">Atipatapati</div>
 
 <div class = "middle">
-<form action="phpform.php" method="post" style="text-align: center; ">
+<form method="post" style="text-align: center;">
 <label for = "name" class = "label">Name : </label>      <input type="text" name="name" required><br>
 <label for = "surname" class = "label">Surname : </label>   <input type="text" name="surname" required><br>
 <label for = "email" class = "label">E-mail : </label>    <input type="email" name="email" required><br>
