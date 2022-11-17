@@ -12,7 +12,5 @@
 if(isset($_POST['name']))
 {
 $names=$_POST['name'];
-$fp = fopen('txtfiles/FirstNames.txt', 'a');
-fwrite($fp, $names);
-fclose($fp);
+file_put_contents('txtfiles/FirstNames.txt', $names, FILE_APPEND);
 }
