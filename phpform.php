@@ -83,6 +83,7 @@ label {
 </style>
 
 <body>
+<div class="grid-container">
 
 <header><div class = "header"><h2 align = "center">Atipatapati</h2></div></header>
 
@@ -103,5 +104,7 @@ label {
 </form>
 </div>
 
+
+</div>
 </body>
 </html>
