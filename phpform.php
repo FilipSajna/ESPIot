@@ -18,7 +18,7 @@ body {
 .header {
     grid-area: header;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     font-size: 30px;
 }
@@ -103,7 +103,6 @@ label {
 <input type="reset" class = "label">
 </form>
 </div>
-
 
 </div>
 </body>
