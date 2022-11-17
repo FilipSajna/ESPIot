@@ -1,6 +1,10 @@
 <html>
 
+<head><title>Contact form</title><head>
+
 <body>
+
+<header><h2 align = "center">Atipatapati</h2></header>
 
 <form action="phpform.php" method="post">
 Name :      <input type="text" name="name" required><br>
