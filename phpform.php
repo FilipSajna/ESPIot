@@ -68,7 +68,7 @@ label {
 }
 
 :required {
-    border: 0.5px solid blue;
+    border: 0.5px solid white;
 }
 
 @media (max-width: 600px) {
