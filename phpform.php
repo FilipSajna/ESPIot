@@ -77,7 +77,7 @@ label {
 }
 
 :required {
-    border: 0.5px solid white;
+    border: 1px solid white;
 }
 
 @media (max-width: 600px) {
