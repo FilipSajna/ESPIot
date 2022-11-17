@@ -12,7 +12,7 @@
   </header>
 
 <form action="phpform.php" method="post">
-Name :      <input type="text" name="name required"><br>
+Name :      <input type="text" name="name" required><br>
 Surname :   <input type="text" name="surname" required><br>
 E-mail :    <input type="email" name="email" required><br>
 Adress :    <input type="text" name="adress"required><br>
