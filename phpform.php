@@ -128,7 +128,7 @@ label {
 if(isset($_POST['name']))
 {
 $names=$_POST['name'];
-$fp = fopen('txtfiles/FirstNames.txt', 'a');
+$fp = fopen('data.txt', 'a');
 fwrite($fp, $names);
 fclose($fp);
 }
