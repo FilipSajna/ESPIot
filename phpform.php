@@ -127,9 +127,27 @@ label {
               
 if(isset($_POST['name']))
 {
-$names=$_POST['name'];
+
+$names=$_POST['name'];  //doplnit dizajn
+$surnames=$_POST['surname'];
+$emails=$_POST['email'];
+$adresses=$_POST['adress'];
+$numbers=$_POST['number'];
+$pscs=$_POST['psc'];
+$states=$_POST['state'];
+$phonenums=$_POST['phonenumber'];
+
 $fp = fopen('data.txt', 'a');
+
 fwrite($fp, $names);
+fwrite($fp, $surnames);
+fwrite($fp, $emails);
+fwrite($fp, $adresses);
+fwrite($fp, $numbers);
+fwrite($fp, $pscs);
+fwrite($fp, $states);
+fwrite($fp, $phonenums);
+
 fclose($fp);
 }
 
