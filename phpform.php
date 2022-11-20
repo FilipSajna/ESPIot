@@ -114,6 +114,7 @@ label {
 <label class = "label">Postal code : </label> <input type="number" name="psc" required><br>
 <label class = "label">State : </label>     <input type="text" name="state" required><br>
 <label class = "label">Phone number : </label> <input type="tel" name="phonenumber" pattern="^\d{4}\d{3}\d{3}$" placeholder="E.g : 0940 093 090" required><br>
+<br>
 <input type="submit" class = "label">
 <input type="reset" class = "label">
 </form>
