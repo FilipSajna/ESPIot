@@ -68,6 +68,9 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
+    background: rgba(255,255,255);
+    border-radius: 0.8rem;
+    opacity: 0.6;
 }
 
 .label {
@@ -98,9 +101,7 @@ label {
 <body>
 <div class="grid-container">
 
-<div class = "header"><h2 align = "center">Atipatapati</h2></div>
-
-<div class = "left">Atipatapati</div>
+<div class = "header"><h2 align = "center">Contact form</h2></div>
 
 <div class = "middle">
 <form method="post" style="text-align: center;">
@@ -117,7 +118,11 @@ label {
 </form>
 </div>
 
-<div class = "right">Atipatapati2</div>
+<div class = "footer">
+    <a href="mailto:filip.sajna@student.tuke.sk">
+        <p>Filip Šajna, e-mail : filip.sajna@student.tuke.sk</p>
+    </a>
+</div>
 
 </div>
 </body>
@@ -128,14 +133,14 @@ label {
 if(isset($_POST['name']))
 {
 
-$names=$_POST['name'];  //doplnit dizajn
-$surnames=$_POST['surname'];
-$emails=$_POST['email'];
-$adresses=$_POST['adress'];
-$numbers=$_POST['number'];
-$pscs=$_POST['psc'];
-$states=$_POST['state'];
-$phonenums=$_POST['phonenumber'];
+$names="First name : ".$_POST['name']."\n";
+$surnames="Surname : ".$_POST['surname']."\n";
+$emails="e-mail : ".$_POST['email']."\n";
+$adresses="Adress : "$_POST['adress']."\n";
+$numbers="Number : ".$_POST['number']."\n";
+$pscs="Postal code : "$_POST['psc']."\n";
+$states="State : ".$_POST['state']."\n";
+$phonenums="Phonenumber : ".$_POST['phonenumber']."\n\n";
 
 $fp = fopen('data.txt', 'a');
 
