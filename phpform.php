@@ -39,7 +39,6 @@ body {
 .middle,
 .right {
     padding: 10px;
-    height: 300px;
 }
 
 .left {
@@ -70,6 +69,10 @@ body {
     background: rgba(255,255,255);
     border-radius: 0.8rem;
     opacity: 0.6;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .label {
