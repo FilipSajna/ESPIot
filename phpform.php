@@ -136,9 +136,9 @@ if(isset($_POST['name']))
 $names="First name : ".$_POST['name']."\n";
 $surnames="Surname : ".$_POST['surname']."\n";
 $emails="e-mail : ".$_POST['email']."\n";
-$adresses="Adress : "$_POST['adress']."\n";
+$adresses="Adress : ".$_POST['adress']."\n";
 $numbers="Number : ".$_POST['number']."\n";
-$pscs="Postal code : "$_POST['psc']."\n";
+$pscs="Postal code : ".$_POST['psc']."\n";
 $states="State : ".$_POST['state']."\n";
 $phonenums="Phonenumber : ".$_POST['phonenumber']."\n\n";
 
