@@ -65,7 +65,6 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
     background: rgba(255,255,255);
