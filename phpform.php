@@ -72,7 +72,6 @@ body {
     padding-top: 10px;
     position: absolute;
     bottom: 0;
-    left: 0;
 }
 
 .label {
