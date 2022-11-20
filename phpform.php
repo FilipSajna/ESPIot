@@ -108,7 +108,7 @@ label {
 <label class = "label">Name : </label>      <input type="text" name="name" required><br>
 <label class = "label">Surname : </label>   <input type="text" name="surname" required><br>
 <label class = "label">E-mail : </label>    <input type="email" name="email" required><br>
-<label class = "label">Adress : </label>    <input type="text" name="adress"required><br>
+<label class = "label">Adress : </label>    <input type="text" name="adress" required><br>
 <label class = "label">Number : </label>    <input type="number" name="number" required><br>
 <label class = "label">Postal code : </label> <input type="number" name="psc" required><br>
 <label class = "label">State : </label>     <input type="text" name="state" required><br>
