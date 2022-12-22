@@ -34,7 +34,6 @@
         <h1>Measured Air Quality</h1>
 
         <?php
-        echo '<h1>getParameters page</h1>';
 
         $temp = $_GET["temp"];
         $hum = $_GET["hum"];
