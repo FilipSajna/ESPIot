@@ -45,10 +45,10 @@
         $text3 = "CO2 : " . $co2;
         $text4 = " TVOC : " . $tvoc;
 
-        echo $text;
-        echo $text2;
-        echo $text3;
-        echo $text4;
+        echo $text; echo "<br>";
+        echo $text2; echo "<br>";
+        echo $text3; echo "<br>";
+        echo $text4; echo "<br>";
 ?>
 
     </div>
